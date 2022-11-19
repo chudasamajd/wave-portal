@@ -1,5 +1,3 @@
-// Quicknode address: https://distinguished-fragrant-wish.ethereum-goerli.discover.quiknode.pro/c704f58b5b3bbaa950fb5f906a02ebf0c61dbafa/
-// WavePortal address:  0x4654F51E67F502dc2346EcdDcf309838016D0C5e
 const main = async () => {
     const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
     const waveContract = await waveContractFactory.deploy({
